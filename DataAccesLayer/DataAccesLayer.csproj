@@ -51,7 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Concrete\Context.cs" />
+    <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
     <Compile Include="Migrations\202501062136090_heading-update.cs" />
     <Compile Include="Migrations\202501062136090_heading-update.Designer.cs">
       <DependentUpon>202501062136090_heading-update.cs</DependentUpon>
